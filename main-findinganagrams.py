@@ -12,9 +12,9 @@ def find_anagram(word, anagram):
     str1 = "word"
     str2 = "anagram"
     if (sorted(str1)) == sorted((str2)):
-       return False
+       return True
     else:
-     return True
+     return False
 print(find_anagram("str1", "str2"))
 
 
